@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-building-columns"></i> Excel university
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- home -->
+  <section id="home" class="hero-bg text-white py-5">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="display-4 fw-bold mb-4">Excel university</h1>
+          <p class="lead mb-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil necessitatibus voluptates
+            aliquid ut, repellat quas illo ipsam quis, minus unde repellendus, labore amet? Facere minima vel alias hic
+            sequi aut.</p>
+
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+
+            <a href="#contact" class="btn btn-warning btn-lg px-4 py-3 fw-bold">
+              <i class="fa-solid fa-pen me-2"></i> Apply Now
+            </a>
+            <a href="#courses" class="btn btn-outline-light btn-lg px-4 py-3 fw-bold">
+              <i class="fa-solid fa-book-open me-2"></i> Explore
+            </a>
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- about section; -->
+  <section id="about" class="section-pedding">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h2 class="section-title text-center text-lg-start">About Our University</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem eligendi libero ipsa culpa
+            sed reiciendis iusto accusantium, placeat veritatis a nostrum fuga voluptates magnam rerum aliquam iste
+            tenetur eos quam explicabo architecto ad voluptas optio! Quae tempore, saepe sint quos eaque et quo esse
+            possimus qui voluptates ratione non!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, saepe. Quia quaerat officia quo quibusdam
+            quis quam, velit consectetur magnam.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum nulla possimus sunt natus aliquid iste
+            sint maiores minima, sequi praesentium.</p>
+
+          <div class="row mt-5 g-4">
+            <div class="col-md-6">
+              <div class="text-center">
+                <div class="about-icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h5>Quality Education</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorum delectus voluptates cumque
+                  ex consequuntur!</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="text-center">
+                <div class="about-icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <h5>Epert Faculty</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorum delectus voluptates cumque
+                  ex consequuntur!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D"
+            alt="" class="img-fluid rounded shadow about-image">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- course -->
+  <section id="course" class="section-padding bg-light-blue">
+    <div class="container">
+      <h2 class="section-title text-center">Courses Offered</h2>
+      <p class="text-center mb-5 lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ex qui
+        assumenda odio, quod delectus
+        harum! Rerum saepe odit fugit!</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 ">
+          <div class="courses-card card h-100">
+            <div class="card-header text-center">
+              <div class="courses-icon">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h4 class="card-title">Computer Scinece</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim
+                iste neque qui, consequuntur nam?</p>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year Bachelor's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 2-year Master's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year PHD Prohram's</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 ">
+          <div class="courses-card card h-100">
+            <div class="card-header text-center">
+              <div class="courses-icon">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h4 class="card-title">Business Scinece</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim
+                iste neque qui, consequuntur nam?</p>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year Bachelor's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 2-year Master's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year PHD Prohram's</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 ">
+          <div class="courses-card card h-100">
+            <div class="card-header text-center">
+              <div class="courses-icon">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h4 class="card-title">Engineering Scinece</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim
+                iste neque qui, consequuntur nam?</p>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year Bachelor's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 2-year Master's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year PHD Prohram's</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 ">
+          <div class="courses-card card h-100">
+            <div class="card-header text-center">
+              <div class="courses-icon">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h4 class="card-title">Health Scinece</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim
+                iste neque qui, consequuntur nam?</p>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year Bachelor's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 2-year Master's</li>
+                <li><i class="fa-solid fa-check text-success me-2"></i> 4-year PHD Prohram's</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="text-center mt-5">
+          <a href="" class="btn btn-gold btn-lg"> View All Program</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section id="contact" class="section-padding bg-light-blue py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="section-title text-center">Admission Inquiry Form</h2>
+          <p class="text-center mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum facere modi nostrum
+            vitae odio non?</p>
+
+          <div class="contact-form p-4 rounded-3 shadow-sm">
+            <form id="administrationform">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="firstname" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="lastname" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastname" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="mobile" class="form-label">Mobile No</label>
+                  <input type="tel" class="form-control" id="mobile" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                  <label for="program" class="form-label">Program of Interest</label>
+                  <select class="form-select" id="program" required>
+                    <option value="" selected>Select a program</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="phd-computer">PhD Computer</option>
+                    <option value="business-science">Business Science</option>
+                    <option value="health-science">Health Science</option>
+                  </select>
+                </div>
+                <div class="col-12 text-center mt-3">
+                  <button type="submit" class="btn btn-primary px-4">Submit Application</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+   <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="footer-heading">Excel University</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ratione sequi deleniti officiis
+                        nesciunt exercitationem minus eaque, voluptatibus dolorum architecto temporibus ab dignissimos
+                        similique nisi, incidunt voluptatum aliquam suscipit consectetur?
+                    </p>
+                    <div class="mt-4">
+                        <a href="" class="text-white  me-3"><i class="fa-brands fa-instagram fs-2"></i></a>
+                        <a href="" class="text-white  me-3"><i class="fa-brands fa-facebook fs-2"></i></a>
+                        <a href="" class="text-white  me-3"><i class="fa-brands fa-linkedin fs-2"></i></a>
+                     
+                    </div>
+                </div>
+                 <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Academic Programs</a>
+                        <a href="#">Research</a>
+                    </div>
+                 </div>
+                 <div class="col-lg-4">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <div class="footer-links">
+                        <p><i class="fa-solid fa-location-arrow"></i>  S.P Ring Road Sarkhej-Gandhinagar Highway,Ahmedabad</p>
+                        <p><i class="fa-regular fa-message"></i>  Admission@FelixUniversity</p>
+                        <p><i class="fa-regular fa-clock"></i>  Mon-Fri: 8:00 AM - 6:00 PM</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Excel University , All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
